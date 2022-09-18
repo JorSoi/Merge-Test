@@ -1,3 +1,5 @@
+const { addAbortSignal } = require("stream");
+
 const messageField = document.getElementById('messageField');
 const chatContainer = document.getElementById('chatContainer');
 let oldDataLength = 0;
