@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Biotif'
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+#chatContainer {
+    width: 400px;
+    height: 600px;
+    border: 2px solid rgba(0, 0, 0, 0.172);
+    background-image: url('./assets/wa-bg.png');
+    background-size: auto;
+    border-radius: 10px;
+    background-color: black;
+    overflow: scroll;
+}
+
+#chatContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+.form {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.194);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    height: 50px;
+    border: none;
+}
+
+#messageField {
+    max-width: 90%;
+    width: 90%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#submitButton {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.chatbox-u1,
+.chatbox-u2 {
+    max-width: 300px;
+    min-height: 1rem;
+    margin: 5px 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.chatbox-u1 {
+    float: left;
+    clear: both;
+    background-color: rgb(220, 248, 198);
+}
+
+.chatbox-u2 {
+    float:right;
+    clear:both;
+    background-color: white;
+}
+
+button img {
+    width: 40%;
+    color: grey;
+    margin-top: 5px;
+}
